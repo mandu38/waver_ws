@@ -1,0 +1,98 @@
+[0.035s] Invoking command in '/home/chotaehyun/waver_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/slam_gmapping
+[1.664s] -- The C compiler identification is GNU 11.4.0
+[1.671s] -- The CXX compiler identification is GNU 11.4.0
+[1.671s] -- Detecting C compiler ABI info
+[1.671s] -- Detecting C compiler ABI info - done
+[1.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.671s] -- Detecting C compile features
+[1.671s] -- Detecting C compile features - done
+[1.671s] -- Detecting CXX compiler ABI info
+[1.671s] -- Detecting CXX compiler ABI info - done
+[1.672s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.672s] -- Detecting CXX compile features
+[1.672s] -- Detecting CXX compile features - done
+[1.672s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.672s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.672s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.677s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[1.796s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.818s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.850s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.013s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.071s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[2.093s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.240s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.623s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.791s] -- Looking for pthread.h
+[3.029s] -- Looking for pthread.h - found
+[3.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.286s] -- Found Threads: TRUE  
+[3.568s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.595s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.599s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.599s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.609s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.648s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.686s] -- Found openslam_gmapping: 0.1.2 (/home/chotaehyun/waver_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[3.694s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.884s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.885s] -- Configured cppcheck include dirs: /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping/include
+[3.885s] -- Configured cppcheck exclude dirs and/or files: 
+[3.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.889s] -- Added test 'lint_cmake' to check CMake code style
+[3.892s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.892s] -- Added test 'uncrustify' to check C / C++ code style
+[3.893s] -- Configured uncrustify additional arguments: 
+[3.894s] -- Added test 'xmllint' to check XML markup files
+[3.898s] -- Configuring done
+[3.927s] -- Generating done
+[3.935s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/slam_gmapping
+[3.982s] Invoked command in '/home/chotaehyun/waver_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/slam_gmapping
+[3.986s] Invoking command in '/home/chotaehyun/waver_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/slam_gmapping -- -j16 -l16
+[5.223s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[5.225s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[5.225s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[5.225s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.225s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.225s]       |  [01;35m[K^~~~~~~[m[K
+[12.631s] In file included from [01m[K/home/chotaehyun/waver_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[12.631s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[12.631s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[12.631s] [01m[K/home/chotaehyun/waver_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[12.631s] [01m[K/home/chotaehyun/waver_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[12.631s]   140 |         [01;35m[Kif[m[K (count>0)
+[12.631s]       |         [01;35m[K^~[m[K
+[12.631s] [01m[K/home/chotaehyun/waver_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[12.631s]   142 |                 [01;36m[Kout[m[K++;
+[12.631s]       |                 [01;36m[K^~~[m[K
+[28.966s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[29.773s] [100%] Built target slam_gmapping
+[29.796s] Invoked command in '/home/chotaehyun/waver_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/slam_gmapping -- -j16 -l16
+[29.799s] Invoking command in '/home/chotaehyun/waver_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/slam_gmapping
+[29.806s] -- Install configuration: ""
+[29.806s] -- Execute custom install script
+[29.806s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[29.825s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/launch/mapping.launch.py
+[29.843s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[29.853s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[29.863s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[29.873s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[29.883s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[29.893s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[29.903s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[29.913s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[29.923s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[29.933s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[29.943s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[29.953s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[29.963s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[29.973s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[29.983s] -- Symlinking: /home/chotaehyun/waver_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[29.997s] Invoked command in '/home/chotaehyun/waver_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/slam_gmapping

@@ -1,0 +1,90 @@
+[0.060s] Invoking command in '/home/chotaehyun/waver_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/ldlidar
+[1.258s] -- The C compiler identification is GNU 11.4.0
+[1.258s] -- The CXX compiler identification is GNU 11.4.0
+[1.258s] -- Detecting C compiler ABI info
+[1.258s] -- Detecting C compiler ABI info - done
+[1.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.258s] -- Detecting C compile features
+[1.259s] -- Detecting C compile features - done
+[1.259s] -- Detecting CXX compiler ABI info
+[1.259s] -- Detecting CXX compiler ABI info - done
+[1.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.259s] -- Detecting CXX compile features - done
+[1.259s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.259s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.259s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.259s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.259s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.259s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.259s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.351s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.358s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.684s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.801s] -- Looking for pthread.h
+[1.988s] -- Looking for pthread.h - found
+[1.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.231s] -- Found Threads: TRUE  
+[2.527s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.657s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.989s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.001s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.002s] -- Configured cppcheck include dirs: /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/include;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/core;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/dataprocess;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/filter;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/logger;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/networkcom;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar/ldlidar_driver/include/serialcom
+[3.002s] -- Configured cppcheck exclude dirs and/or files: 
+[3.014s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.015s] -- Configured cpplint exclude dirs and/or files: 
+[3.019s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.021s] -- Added test 'lint_cmake' to check CMake code style
+[3.026s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.035s] -- Added test 'uncrustify' to check C / C++ code style
+[3.035s] -- Configured uncrustify additional arguments: 
+[3.038s] -- Added test 'xmllint' to check XML markup files
+[3.041s] -- Configuring done
+[3.059s] -- Generating done
+[3.065s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/ldlidar
+[3.098s] Invoked command in '/home/chotaehyun/waver_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/ldlidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/ldlidar
+[3.108s] Invoking command in '/home/chotaehyun/waver_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/ldlidar -- -j16 -l16
+[3.497s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/src/demo.cpp.o[0m
+[3.497s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[3.498s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[3.498s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[3.498s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[3.498s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[3.498s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[19.689s] [100%] [32m[1mLinking CXX executable ldlidar_node[0m
+[20.466s] [100%] Built target ldlidar_node
+[20.529s] Invoked command in '/home/chotaehyun/waver_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/ldlidar -- -j16 -l16
+[20.540s] Invoking command in '/home/chotaehyun/waver_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/ldlidar
+[21.441s] -- Install configuration: ""
+[21.442s] -- Execute custom install script
+[21.442s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/lib/ldlidar/ldlidar_node
+[21.442s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[21.442s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ldlidar.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ldlidar.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//rviz/view.rviz
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/path.sh
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/path.dsv
+[21.443s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.bash
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.sh
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.zsh
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.dsv
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/package.dsv
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[21.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/package.xml
+[21.466s] Invoked command in '/home/chotaehyun/waver_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/ldlidar

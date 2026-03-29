@@ -1,0 +1,18 @@
+[3.258s] Invoking command in '/home/chotaehyun/waver_ws/build/ugv_bringup': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_bringup/build --no-deps symlink_data
+[3.889s] running develop
+[4.223s] running egg_info
+[4.224s] writing ugv_bringup.egg-info/PKG-INFO
+[4.224s] writing dependency_links to ugv_bringup.egg-info/dependency_links.txt
+[4.224s] writing entry points to ugv_bringup.egg-info/entry_points.txt
+[4.225s] writing requirements to ugv_bringup.egg-info/requires.txt
+[4.227s] writing top-level names to ugv_bringup.egg-info/top_level.txt
+[4.230s] reading manifest file 'ugv_bringup.egg-info/SOURCES.txt'
+[4.232s] writing manifest file 'ugv_bringup.egg-info/SOURCES.txt'
+[4.235s] running build_ext
+[4.236s] Creating /home/chotaehyun/waver_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv-bringup.egg-link (link to .)
+[4.239s] Installing ugv_bringup script to /home/chotaehyun/waver_ws/install/ugv_bringup/lib/ugv_bringup
+[4.239s] Installing ugv_driver script to /home/chotaehyun/waver_ws/install/ugv_bringup/lib/ugv_bringup
+[4.241s] 
+[4.241s] Installed /home/chotaehyun/waver_ws/build/ugv_bringup
+[4.241s] running symlink_data
+[4.414s] Invoked command in '/home/chotaehyun/waver_ws/build/ugv_bringup' returned '0': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_bringup/build --no-deps symlink_data

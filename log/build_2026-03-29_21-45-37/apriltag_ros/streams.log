@@ -1,0 +1,36 @@
+[1.540s] Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:/home/chotaehyun/waver_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/chotaehyun/waver_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/chotaehyun/waver_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_ros -- -j16 -l16
+[1.730s] [ 50%] Built target AprilTagNode
+[1.735s] [100%] Built target tag_detector
+[1.913s] Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:/home/chotaehyun/waver_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/chotaehyun/waver_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/chotaehyun/waver_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_ros -- -j16 -l16
+[1.921s] Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:/home/chotaehyun/waver_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/chotaehyun/waver_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/chotaehyun/waver_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_ros
+[2.023s] -- Install configuration: ""
+[2.023s] -- Execute custom install script
+[2.023s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[2.023s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[2.023s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_all.yaml
+[2.023s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_filtered.yaml
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_all.yaml
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_filter.yaml
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/launch/bringup.launch.py
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_gazebo.launch.py
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_realsense.launch.py
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[2.024s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[2.025s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.025s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[2.026s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[2.026s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[2.026s] -- Up-to-date: /home/chotaehyun/waver_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[2.026s] -- Up-to-date: /home/chotaehyun/waver_ws/install/apriltag_ros/bin/tag_detector
+[2.250s] Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs:/home/chotaehyun/waver_ws/install/apriltag:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/chotaehyun/waver_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/chotaehyun/waver_ws/install/apriltag/lib/pkgconfig PYTHONPATH=/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_ros

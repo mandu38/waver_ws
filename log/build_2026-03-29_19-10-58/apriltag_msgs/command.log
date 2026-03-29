@@ -1,0 +1,6 @@
+Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/apriltag_ros/apriltag_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/apriltag_msgs
+Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/apriltag_ros/apriltag_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/apriltag_msgs
+Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_msgs -- -j16 -l16
+Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_msgs -- -j16 -l16
+Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_msgs
+Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_msgs

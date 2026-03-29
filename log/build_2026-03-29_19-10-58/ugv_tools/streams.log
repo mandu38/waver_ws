@@ -1,0 +1,28 @@
+[3.035s] Invoking command in '/home/chotaehyun/waver_ws/build/ugv_tools': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_tools/build --no-deps symlink_data
+[8.652s] running develop
+[8.653s] running egg_info
+[8.653s] creating ugv_tools.egg-info
+[8.653s] writing ugv_tools.egg-info/PKG-INFO
+[8.653s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[8.653s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[8.653s] writing requirements to ugv_tools.egg-info/requires.txt
+[8.653s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[8.653s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[8.653s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[8.653s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[8.653s] running build_ext
+[8.654s] Creating /home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[8.654s] Installing behavior_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[8.654s] Installing joy_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[8.654s] Installing keyboard_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[8.654s] 
+[8.654s] Installed /home/chotaehyun/waver_ws/build/ugv_tools
+[8.654s] running symlink_data
+[8.654s] creating /home/chotaehyun/waver_ws/install/ugv_tools/share/ament_index
+[8.654s] creating /home/chotaehyun/waver_ws/install/ugv_tools/share/ament_index/resource_index
+[8.658s] creating /home/chotaehyun/waver_ws/install/ugv_tools/share/ament_index/resource_index/packages
+[8.658s] symbolically linking /home/chotaehyun/waver_ws/build/ugv_tools/resource/ugv_tools -> /home/chotaehyun/waver_ws/install/ugv_tools/share/ament_index/resource_index/packages
+[8.659s] symbolically linking /home/chotaehyun/waver_ws/build/ugv_tools/package.xml -> /home/chotaehyun/waver_ws/install/ugv_tools/share/ugv_tools
+[8.659s] creating /home/chotaehyun/waver_ws/install/ugv_tools/share/ugv_tools/launch
+[8.659s] symbolically linking /home/chotaehyun/waver_ws/build/ugv_tools/launch/teleop_twist_joy.launch.py -> /home/chotaehyun/waver_ws/install/ugv_tools/share/ugv_tools/launch
+[8.710s] Invoked command in '/home/chotaehyun/waver_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_tools/build --no-deps symlink_data

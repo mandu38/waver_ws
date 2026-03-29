@@ -1,0 +1,49 @@
+[1.337s] Invoking command in '/home/chotaehyun/waver_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/costmap_converter -- -j16 -l16
+[1.472s] [ 10%] Built target gtest_main
+[1.493s] [ 21%] Built target gtest
+[1.518s] [ 78%] Built target costmap_converter
+[1.610s] [ 89%] Built target test_costmap_polygons
+[1.618s] [100%] Built target standalone_converter
+[1.808s] Invoked command in '/home/chotaehyun/waver_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/costmap_converter -- -j16 -l16
+[1.809s] Invoking command in '/home/chotaehyun/waver_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/costmap_converter
+[1.829s] -- Install configuration: "Release"
+[1.830s] -- Execute custom install script
+[1.833s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/lib/libcostmap_converter.so
+[1.834s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/bin/standalone_converter
+[1.838s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[1.839s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[1.840s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[1.840s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[1.842s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[1.842s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[1.842s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[1.842s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[1.843s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[1.843s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[1.844s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[1.844s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[1.845s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[1.849s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/misc.h
+[1.849s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[1.850s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[1.852s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[1.854s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[1.855s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[1.867s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[1.868s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[1.868s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.868s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[1.868s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.868s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[1.870s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[1.870s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/package.xml
+[2.004s] Invoked command in '/home/chotaehyun/waver_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/costmap_converter

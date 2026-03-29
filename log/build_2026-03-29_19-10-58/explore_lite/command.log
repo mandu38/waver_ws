@@ -1,0 +1,6 @@
+Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/explore_lite
+Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/explore_lite
+Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite
+Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite

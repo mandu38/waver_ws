@@ -1,0 +1,317 @@
+[0.053s] Invoking command in '/home/chotaehyun/waver_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/costmap_converter
+[2.109s] -- The C compiler identification is GNU 11.4.0
+[2.110s] -- The CXX compiler identification is GNU 11.4.0
+[2.110s] -- Detecting C compiler ABI info
+[2.110s] -- Detecting C compiler ABI info - done
+[2.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.110s] -- Detecting C compile features
+[2.110s] -- Detecting C compile features - done
+[2.110s] -- Detecting CXX compiler ABI info
+[2.110s] -- Detecting CXX compiler ABI info - done
+[2.111s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.111s] -- Detecting CXX compile features
+[2.111s] -- Detecting CXX compile features - done
+[2.111s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.111s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.111s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.111s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[2.111s] -- Found costmap_converter_msgs: 0.1.2 (/home/chotaehyun/waver_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[2.111s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.111s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.111s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.111s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.149s] -- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[2.308s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.315s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.724s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.822s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.840s] -- Looking for pthread.h
+[3.068s] -- Looking for pthread.h - found
+[3.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.364s] -- Found Threads: TRUE  
+[3.866s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.866s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.131s] -- Found OpenCV: /usr (found version "4.5.4") 
+[4.154s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.159s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.346s] -- Configuring done
+[4.560s] -- Generating done
+[4.594s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/costmap_converter
+[4.633s] Invoked command in '/home/chotaehyun/waver_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/costmap_converter
+[4.634s] Invoking command in '/home/chotaehyun/waver_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/costmap_converter -- -j16 -l16
+[4.730s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.750s] [ 10%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons.cpp.o[0m
+[4.750s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.750s] [ 21%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons_concave.cpp.o[0m
+[4.755s] [ 26%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_convex_hull.cpp.o[0m
+[4.763s] [ 31%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_ransac.cpp.o[0m
+[4.769s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp.o[0m
+[4.769s] [ 42%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.cpp.o[0m
+[4.776s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/background_subtractor.cpp.o[0m
+[4.776s] [ 52%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/blob_detector.cpp.o[0m
+[4.777s] [ 57%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.cpp.o[0m
+[4.784s] [ 63%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.cpp.o[0m
+[6.257s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:6[m[K:
+[6.257s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[6.257s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[6.257s]       |  [01;35m[K^~~~~~~[m[K
+[6.796s] [ 68%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.923s] [ 68%] Built target gtest_main
+[16.316s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.317s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[16.318s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[16.318s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[16.318s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[16.318s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[16.318s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[16.318s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[16.362s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.363s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[16.363s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[16.363s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[16.363s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[16.363s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[16.363s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[16.363s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[16.369s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[16.369s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.369s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[16.369s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.369s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[16.369s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[16.370s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[16.370s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.370s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[16.370s]       |                                                                                                                      [01;36m[K~^[m[K
+[16.370s]       |                                                                                                                       [01;36m[K|[m[K
+[16.370s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[16.419s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[16.419s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.419s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[16.419s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.419s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[16.420s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[16.420s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.420s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[16.420s]       |                                                                                                                      [01;36m[K~^[m[K
+[16.420s]       |                                                                                                                       [01;36m[K|[m[K
+[16.420s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[16.694s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.694s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[16.695s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[16.695s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[16.695s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[16.695s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[16.695s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[16.695s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[16.737s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[16.738s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.738s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[16.738s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.738s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[16.739s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[16.739s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.739s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[16.739s]       |                                                                                                                      [01;36m[K~^[m[K
+[16.739s]       |                                                                                                                       [01;36m[K|[m[K
+[16.741s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[16.916s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.916s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.917s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[16.917s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[16.917s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[16.917s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[16.917s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[16.917s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[16.917s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[16.966s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[16.966s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.966s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[16.966s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.967s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[16.968s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[16.968s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.968s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[16.968s]       |                                                                                                                      [01;36m[K~^[m[K
+[16.972s]       |                                                                                                                       [01;36m[K|[m[K
+[16.972s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[17.426s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[17.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[17.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[17.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[17.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[17.426s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[17.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[17.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[17.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[17.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[17.427s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.427s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[17.427s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[17.427s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[17.427s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[17.427s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[17.427s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[17.469s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[17.469s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[17.469s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[17.469s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.469s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[17.469s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[17.469s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[17.469s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[17.469s]       |                                                            [01;36m[K~^[m[K
+[17.469s]       |                                                             [01;36m[K|[m[K
+[17.469s]       |                                                             [01;36m[Kchar*[m[K
+[17.470s] 
+[21.706s] [ 73%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.784s] [ 73%] Built target gtest
+[34.251s] [ 78%] [32m[1mLinking CXX shared library libcostmap_converter.so[0m
+[34.625s] [ 78%] Built target costmap_converter
+[34.668s] [ 84%] [32mBuilding CXX object CMakeFiles/standalone_converter.dir/src/costmap_converter_node.cpp.o[0m
+[34.672s] [ 89%] [32mBuilding CXX object CMakeFiles/test_costmap_polygons.dir/test/costmap_polygons.cpp.o[0m
+[37.514s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[37.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[37.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[37.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[37.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[37.515s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:40[m[K:
+[37.515s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[37.515s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[37.515s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[37.516s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[37.530s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[37.530s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[37.530s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[37.530s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[37.530s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:47[m[K:
+[37.530s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[37.530s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[37.530s]       |                                                            [01;36m[K~^[m[K
+[37.530s]       |                                                             [01;36m[K|[m[K
+[37.531s]       |                                                             [01;36m[Kchar*[m[K
+[37.531s] 
+[38.327s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[38.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[38.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[38.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[38.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[38.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[38.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[38.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[38.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[38.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[38.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[38.328s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[38.328s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[38.328s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[38.328s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[38.328s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[38.328s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[38.344s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[38.344s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[38.344s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[38.344s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.344s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[38.344s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[38.344s] [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[38.344s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[38.344s]       |                                                                                                                      [01;36m[K~^[m[K
+[38.345s]       |                                                                                                                       [01;36m[K|[m[K
+[38.345s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[40.673s] [ 94%] [32m[1mLinking CXX executable test_costmap_polygons[0m
+[41.257s] [ 94%] Built target test_costmap_polygons
+[44.863s] [100%] [32m[1mLinking CXX executable standalone_converter[0m
+[45.156s] [100%] Built target standalone_converter
+[45.184s] Invoked command in '/home/chotaehyun/waver_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/costmap_converter -- -j16 -l16
+[45.187s] Invoking command in '/home/chotaehyun/waver_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/costmap_converter
+[45.205s] -- Install configuration: "Release"
+[45.206s] -- Execute custom install script
+[45.206s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/lib/libcostmap_converter.so
+[45.225s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/bin/standalone_converter
+[45.235s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[45.255s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[45.264s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[45.274s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[45.283s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[45.292s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[45.302s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[45.312s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[45.321s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[45.331s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[45.340s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[45.350s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[45.359s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[45.369s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/include//costmap_converter/misc.h
+[45.379s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[45.388s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[45.398s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[45.408s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[45.418s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[45.428s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[45.437s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[45.447s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[45.457s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[45.466s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[45.486s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[45.495s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[45.504s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[45.514s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[45.523s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[45.532s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[45.541s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.550s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[45.566s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.574s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[45.584s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[45.593s] -- Symlinking: /home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/package.xml
+[45.606s] Invoked command in '/home/chotaehyun/waver_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/costmap_converter

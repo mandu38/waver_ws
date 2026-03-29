@@ -1,0 +1,16 @@
+[2.500s] Invoking command in '/home/chotaehyun/waver_ws/build/ugv_web_app': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_web_app/build --no-deps symlink_data
+[2.906s] running develop
+[3.181s] running egg_info
+[3.182s] writing ugv_web_app.egg-info/PKG-INFO
+[3.182s] writing dependency_links to ugv_web_app.egg-info/dependency_links.txt
+[3.182s] writing entry points to ugv_web_app.egg-info/entry_points.txt
+[3.182s] writing requirements to ugv_web_app.egg-info/requires.txt
+[3.182s] writing top-level names to ugv_web_app.egg-info/top_level.txt
+[3.186s] reading manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[3.187s] writing manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[3.190s] running build_ext
+[3.190s] Creating /home/chotaehyun/waver_ws/install/ugv_web_app/lib/python3.10/site-packages/ugv-web-app.egg-link (link to .)
+[3.192s] 
+[3.192s] Installed /home/chotaehyun/waver_ws/build/ugv_web_app
+[3.192s] running symlink_data
+[3.292s] Invoked command in '/home/chotaehyun/waver_ws/build/ugv_web_app' returned '0': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_web_app/build --no-deps symlink_data

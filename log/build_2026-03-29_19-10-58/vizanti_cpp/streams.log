@@ -1,0 +1,62 @@
+[0.720s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/vizanti_cpp
+[2.009s] -- The C compiler identification is GNU 11.4.0
+[2.009s] -- The CXX compiler identification is GNU 11.4.0
+[2.009s] -- Detecting C compiler ABI info
+[2.010s] -- Detecting C compiler ABI info - done
+[2.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.010s] -- Detecting C compile features
+[2.010s] -- Detecting C compile features - done
+[2.010s] -- Detecting CXX compiler ABI info
+[2.010s] -- Detecting CXX compiler ABI info - done
+[2.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.010s] -- Detecting CXX compile features
+[2.010s] -- Detecting CXX compile features - done
+[2.010s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.243s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.518s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.668s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.677s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.694s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.843s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.852s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.126s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.205s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.315s] -- Looking for pthread.h
+[3.568s] -- Looking for pthread.h - found
+[3.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.816s] -- Found Threads: TRUE  
+[3.950s] -- Found tf2_msgs: 0.25.19 (/opt/ros/humble/share/tf2_msgs/cmake)
+[4.186s] -- Configuring done
+[4.204s] -- Generating done
+[4.211s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/vizanti_cpp
+[4.247s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/vizanti_cpp
+[4.247s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/vizanti_cpp -- -j16 -l16
+[4.837s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_consolidator.dir/src/tf_consolidator.cpp.o[0m
+[25.428s] [100%] [32m[1mLinking CXX executable tf_consolidator[0m
+[26.185s] [100%] Built target tf_consolidator
+[26.200s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/vizanti_cpp -- -j16 -l16
+[26.203s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/vizanti_cpp
+[26.211s] -- Install configuration: ""
+[26.211s] -- Execute custom install script
+[26.212s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/lib/vizanti_cpp/tf_consolidator
+[26.223s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/ament_index/resource_index/package_run_dependencies/vizanti_cpp
+[26.234s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/ament_index/resource_index/parent_prefix_path/vizanti_cpp
+[26.246s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.sh
+[26.257s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.dsv
+[26.268s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.sh
+[26.279s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.dsv
+[26.291s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.bash
+[26.302s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.sh
+[26.313s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.zsh
+[26.324s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.dsv
+[26.335s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/package.dsv
+[26.346s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/ament_index/resource_index/packages/vizanti_cpp
+[26.358s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig.cmake
+[26.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig-version.cmake
+[26.378s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_cpp/share/vizanti_cpp/package.xml
+[26.392s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/vizanti_cpp

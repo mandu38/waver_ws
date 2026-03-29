@@ -1,0 +1,236 @@
+[0.065s] Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/apriltag_ros/apriltag_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/apriltag_msgs
+[1.254s] -- The C compiler identification is GNU 11.4.0
+[1.254s] -- The CXX compiler identification is GNU 11.4.0
+[1.254s] -- Detecting C compiler ABI info
+[1.254s] -- Detecting C compiler ABI info - done
+[1.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.254s] -- Detecting C compile features
+[1.254s] -- Detecting C compile features - done
+[1.254s] -- Detecting CXX compiler ABI info
+[1.254s] -- Detecting CXX compiler ABI info - done
+[1.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.254s] -- Detecting CXX compile features
+[1.255s] -- Detecting CXX compile features - done
+[1.255s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.255s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.255s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.255s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.255s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.255s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.352s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.959s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.968s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.976s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.981s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.108s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.120s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.202s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.202s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.202s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.261s] -- Found PythonExtra: .so  
+[4.561s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.574s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.588s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.665s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.671s] -- Added test 'lint_cmake' to check CMake code style
+[4.671s] -- Added test 'xmllint' to check XML markup files
+[4.682s] -- Configuring done
+[4.876s] -- Generating done
+[4.941s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/apriltag_msgs
+[5.031s] Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/apriltag_ros/apriltag_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/apriltag_msgs
+[5.032s] Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_msgs -- -j16 -l16
+[6.968s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.968s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.968s] [  5%] Built target ament_cmake_python_symlink_apriltag_msgs
+[6.968s] running egg_info
+[6.968s] creating apriltag_msgs.egg-info
+[6.968s] writing apriltag_msgs.egg-info/PKG-INFO
+[6.968s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[6.968s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[6.968s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.969s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.969s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.969s] [  5%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[6.969s] [  5%] Built target apriltag_msgs__cpp
+[6.969s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.969s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.969s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.969s] [ 15%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[6.969s] [ 17%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[7.002s] [ 20%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[7.176s] [ 20%] Built target apriltag_msgs__rosidl_generator_c
+[7.209s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.216s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.226s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.001s] [ 30%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[8.007s] [ 33%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[8.012s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[8.015s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[8.078s] [ 41%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[8.086s] [ 43%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[8.357s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[8.366s] [ 48%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[8.457s] [ 51%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[8.463s] [ 53%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[8.537s] [ 56%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[8.548s] [ 58%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[8.660s] [ 61%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[8.744s] [ 64%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.914s] [ 64%] Built target apriltag_msgs__rosidl_typesupport_c
+[8.928s] [ 64%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[9.336s] [ 66%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[9.546s] [ 66%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[9.898s] [ 69%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.090s] [ 71%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.243s] [ 74%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.409s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[10.528s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[10.637s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[10.707s] [ 74%] Built target apriltag_msgs
+[10.786s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.969s] [ 76%] Built target apriltag_msgs__py
+[13.076s] [ 79%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[13.090s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[13.480s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[13.746s] [ 84%] Built target apriltag_msgs__rosidl_generator_py
+[13.858s] [ 87%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.871s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.877s] [ 92%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.309s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.367s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.397s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.550s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.614s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[14.627s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[16.263s] Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag_msgs -- -j16 -l16
+[16.264s] Invoking command in '/home/chotaehyun/waver_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_msgs
+[17.353s] -- Install configuration: ""
+[17.353s] -- Execute custom install script
+[17.354s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[17.354s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[17.354s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[17.355s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.356s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[17.366s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[17.367s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[17.368s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[17.380s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.393s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.426s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.457s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.494s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.525s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[17.555s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[17.592s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[17.637s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[17.661s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[17.695s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[17.721s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.724s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.724s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.724s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[17.747s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[17.768s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[17.797s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[17.831s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[17.857s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[17.899s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[17.927s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[17.971s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[18.001s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[18.031s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[18.062s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[18.100s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[18.125s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[18.168s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[18.200s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[18.229s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[18.245s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.262s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.288s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.321s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.329s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.344s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.360s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[18.378s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[18.393s] -- Symlinking: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[18.433s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[18.433s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[18.433s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[18.434s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.434s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.434s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.440s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[18.440s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.440s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[18.442s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[18.442s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[18.443s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.443s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[18.444s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[18.578s] Listing '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[18.578s] Compiling '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[18.578s] Listing '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[18.578s] Compiling '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[18.578s] Compiling '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[18.578s] Compiling '/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[18.608s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[18.615s] -- Set runtime path of "/home/chotaehyun/waver_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[18.615s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[18.615s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.615s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.615s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.615s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[18.616s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.616s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.616s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.617s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[18.618s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.618s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[18.618s] -- Installing: /home/chotaehyun/waver_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.632s] Invoked command in '/home/chotaehyun/waver_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag_msgs

@@ -1,0 +1,15 @@
+{
+  "package_name": "vizanti_msgs",
+  "non_idl_tuples": [
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/GetNodeParameters.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/SetNodeParameter.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/SaveMap.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/LoadMap.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/Launches.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/RecordRosbag.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/ManageNode.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/ManageLaunch.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/ListPackages.srv",
+    "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_msgs:srv/ListExecutables.srv"
+  ]
+}

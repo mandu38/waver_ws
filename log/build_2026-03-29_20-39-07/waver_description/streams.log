@@ -1,0 +1,46 @@
+[0.813s] Invoking command in '/home/chotaehyun/waver_ws/build/waver_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/waver_description -- -j16 -l16
+[0.952s] Invoked command in '/home/chotaehyun/waver_ws/build/waver_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/waver_description -- -j16 -l16
+[0.955s] Invoking command in '/home/chotaehyun/waver_ws/build/waver_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/waver_description
+[0.990s] -- Install configuration: ""
+[0.990s] -- Execute custom install script
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/launch/gazebo.launch.py
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/depth_camera_zedxm.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/imu.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/lidar.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/materials.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/rasp_pi_camera.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/util.xacro
+[0.991s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/waver.control.xacro
+[0.993s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/waver.gazebo.xacro
+[0.993s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/urdf/waver.xacro
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/LD19.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/accessories1_link.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/accessories_link.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/base_link.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/board_link.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/oled_screen_link.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/rasp_pi_camera.stl
+[0.994s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/top_shell_link.stl
+[0.995s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/wheel_back_left_link.stl
+[0.995s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/wheel_back_right_link.stl
+[0.995s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/wheel_front_left_link.stl
+[0.995s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/wheel_front_right_link.stl
+[0.996s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/meshes/zedxm.stl
+[0.996s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/worlds/empty.world
+[0.996s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/config/waver_controllers.yaml
+[0.996s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/ament_index/resource_index/package_run_dependencies/waver_description
+[0.996s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/ament_index/resource_index/parent_prefix_path/waver_description
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/environment/ament_prefix_path.sh
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/environment/ament_prefix_path.dsv
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/environment/path.sh
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/environment/path.dsv
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/local_setup.bash
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/local_setup.sh
+[0.997s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/local_setup.zsh
+[0.998s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/local_setup.dsv
+[0.998s] -- Symlinking: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/package.dsv
+[0.998s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/ament_index/resource_index/packages/waver_description
+[0.998s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/cmake/waver_descriptionConfig.cmake
+[0.998s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/cmake/waver_descriptionConfig-version.cmake
+[0.998s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/waver_description/share/waver_description/package.xml
+[1.065s] Invoked command in '/home/chotaehyun/waver_ws/build/waver_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/waver_description

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b97cab2ade34a53c1afd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-Release-8883d794f2d1639c2bfe.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cpython-310-x86_64-linux-gnu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cpython-310-x86_64-linux-gnu-Release-93895dc1a0599038cc0c.json",
+					"name" : "apriltag.cpython-310-x86_64-linux-gnu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-Release-58bc7e169de017511043.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-Release-ebc83da661df47a8f275.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_demo-Release-e3483e1486558d0c47d0.json",
+					"name" : "opencv_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chotaehyun/waver_ws/build/apriltag",
+		"source" : "/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/apriltag_ros/apriltag"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

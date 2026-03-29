@@ -1,0 +1,4 @@
+Invoking command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/robot_pose_publisher -- -j16 -l16
+Invoked command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/robot_pose_publisher -- -j16 -l16
+Invoking command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/robot_pose_publisher
+Invoked command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/robot_pose_publisher

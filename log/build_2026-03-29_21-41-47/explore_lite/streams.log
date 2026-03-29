@@ -1,0 +1,34 @@
+[0.165s] Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+[2.030s] [ 20%] Built target gtest_main
+[2.030s] [ 40%] Built target gtest
+[2.030s] [ 80%] Built target explore
+[2.030s] [100%] Built target test_explore
+[2.086s] Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+[2.089s] Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite
+[2.197s] -- Install configuration: ""
+[2.197s] -- Execute custom install script
+[2.197s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//costmap_client.h
+[2.197s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//costmap_tools.h
+[2.197s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//explore.h
+[2.197s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//frontier_search.h
+[2.198s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[2.198s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[2.198s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[2.198s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/lib/explore_lite/explore
+[2.198s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[2.200s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[2.202s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[2.207s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[2.209s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[2.209s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[2.210s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/package.dsv
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[2.210s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/package.xml
+[2.419s] Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite

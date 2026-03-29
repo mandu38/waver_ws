@@ -1,0 +1,103 @@
+[0.060s] Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/explore_lite
+[1.259s] -- The C compiler identification is GNU 11.4.0
+[1.260s] -- The CXX compiler identification is GNU 11.4.0
+[1.260s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info - done
+[1.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.260s] -- Detecting C compile features
+[1.260s] -- Detecting C compile features - done
+[1.260s] -- Detecting CXX compiler ABI info
+[1.260s] -- Detecting CXX compiler ABI info - done
+[1.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.260s] -- Detecting CXX compile features
+[1.261s] -- Detecting CXX compile features - done
+[1.261s] -- BuilD for ROS2: humble
+[1.261s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.261s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.261s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.261s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.261s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.261s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.361s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.637s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.703s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.818s] -- Looking for pthread.h
+[1.973s] -- Looking for pthread.h - found
+[1.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.235s] -- Found Threads: TRUE  
+[2.544s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.665s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.001s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.029s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.031s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.032s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.042s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[3.152s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[3.215s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.283s] -- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[3.882s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.261s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.284s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.351s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.351s] -- Configured cppcheck include dirs: /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite/include;$<BUILD_INTERFACE:/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite/include>
+[4.352s] -- Configured cppcheck exclude dirs and/or files: 
+[4.357s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.360s] -- Added test 'lint_cmake' to check CMake code style
+[4.362s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.366s] -- Added test 'uncrustify' to check C / C++ code style
+[4.367s] -- Configured uncrustify additional arguments: 
+[4.370s] -- Added test 'xmllint' to check XML markup files
+[4.381s] -- Configuring done
+[4.950s] -- Generating done
+[5.018s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/explore_lite
+[5.114s] Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/explore_lite -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/explore_lite
+[5.115s] Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+[10.630s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.630s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.630s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[10.631s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[10.631s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[10.631s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.631s] [ 60%] Built target gtest_main
+[17.500s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.680s] [ 70%] Built target gtest
+[17.747s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[20.713s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[22.759s] [ 90%] Built target test_explore
+[40.946s] [100%] [32m[1mLinking CXX executable explore[0m
+[44.729s] [100%] Built target explore
+[44.753s] Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/explore_lite -- -j16 -l16
+[44.756s] Invoking command in '/home/chotaehyun/waver_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite
+[44.764s] -- Install configuration: ""
+[44.765s] -- Execute custom install script
+[44.765s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//costmap_client.h
+[44.776s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//costmap_tools.h
+[44.786s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//explore.h
+[44.796s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/include/explore//frontier_search.h
+[44.807s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[44.817s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[44.828s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[44.840s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/lib/explore_lite/explore
+[44.851s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[44.861s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[44.872s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[44.883s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[44.893s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[44.904s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[44.915s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[44.925s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[44.936s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[44.947s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[44.958s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/package.dsv
+[44.968s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[44.979s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.990s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[45.001s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[45.011s] -- Symlinking: /home/chotaehyun/waver_ws/install/explore_lite/share/explore_lite/package.xml
+[45.025s] Invoked command in '/home/chotaehyun/waver_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/explore_lite

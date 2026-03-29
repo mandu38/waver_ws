@@ -1,0 +1,4 @@
+Invoking command in '/home/chotaehyun/waver_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag -- -j16 -l16
+Invoked command in '/home/chotaehyun/waver_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/apriltag -- -j16 -l16
+Invoking command in '/home/chotaehyun/waver_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag
+Invoked command in '/home/chotaehyun/waver_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/apriltag

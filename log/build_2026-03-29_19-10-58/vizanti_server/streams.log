@@ -1,0 +1,278 @@
+[0.069s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/vizanti_server
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.811s] -- Detecting C compiler ABI info - done
+[0.835s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.836s] -- Detecting C compile features
+[0.840s] -- Detecting C compile features - done
+[0.848s] -- Detecting CXX compiler ABI info
+[1.159s] -- Detecting CXX compiler ABI info - done
+[1.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.182s] -- Detecting CXX compile features
+[1.182s] -- Detecting CXX compile features - done
+[1.191s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.573s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.860s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.997s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.179s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.203s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.239s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.550s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.557s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.848s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.968s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.145s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.182s] -- Looking for pthread.h
+[3.463s] -- Looking for pthread.h - found
+[3.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.737s] -- Found Threads: TRUE  
+[3.885s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[3.891s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.913s] -- Found tf2_msgs: 0.25.19 (/opt/ros/humble/share/tf2_msgs/cmake)
+[4.081s] -- Found vizanti_msgs: 0.1.0 (/home/chotaehyun/waver_ws/install/vizanti_msgs/share/vizanti_msgs/cmake)
+[4.282s] -- Found rosbridge_suite: 2.0.5 (/opt/ros/humble/share/rosbridge_suite/cmake)
+[4.561s] -- Configuring done
+[4.579s] -- Generating done
+[4.590s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/vizanti_server
+[4.656s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/vizanti/vizanti_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/vizanti_server
+[4.661s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/vizanti_server -- -j16 -l16
+[5.229s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/vizanti_server -- -j16 -l16
+[5.230s] Invoking command in '/home/chotaehyun/waver_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/vizanti_server
+[5.248s] -- Install configuration: ""
+[5.250s] -- Execute custom install script
+[5.253s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_rws.launch.py
+[5.282s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_server.launch.py
+[5.323s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/add.svg
+[5.351s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter.svg
+[5.382s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow.svg
+[5.411s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow_green.svg
+[5.447s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_green.svg
+[5.477s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/area.svg
+[5.508s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_100.svg
+[5.538s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_20.svg
+[5.566s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_40.svg
+[5.599s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_60.svg
+[5.632s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_80.svg
+[5.659s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_unknown.svg
+[5.686s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/button.svg
+[5.710s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/button_false.svg
+[5.726s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/button_true.svg
+[5.744s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/costmap.svg
+[5.759s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/default_layout.json
+[5.777s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/folder.svg
+[5.793s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/grid.svg
+[5.812s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/gridcells.svg
+[5.828s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/152.png
+[5.844s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/16.png
+[5.862s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/192.png
+[5.880s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/32.png
+[5.905s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/512.png
+[5.941s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/96.png
+[5.979s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/icon.svg
+[6.004s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/manifest.json
+[6.025s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/preview.jpg
+[6.038s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/image.svg
+[6.055s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.png
+[6.071s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.svg
+[6.086s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/joypos.svg
+[6.102s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/joystick.svg
+[6.123s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/map.svg
+[6.140s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/marker.svg
+[6.157s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/markerarray.svg
+[6.175s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/node_kill.svg
+[6.192s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/node_restart.svg
+[6.211s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/nodemgr.svg
+[6.226s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/path.svg
+[6.244s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/pointcloud.svg
+[6.262s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/posearray.svg
+[6.284s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/posewithcovariancestamped.svg
+[6.298s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/range.svg
+[6.315s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rawmap.svg
+[6.335s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/reconfigure.svg
+[6.352s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_2wd.png
+[6.387s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_4wd.png
+[6.423s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_arrow.png
+[6.452s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_dog.png
+[6.490s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_hatchback.png
+[6.521s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_orca.png
+[6.557s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_pancake.png
+[6.581s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_rccar.png
+[6.611s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_sandwich.png
+[6.629s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tortoise.png
+[6.660s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tuna.png
+[6.693s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/robotmodel.svg
+[6.719s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag.svg
+[6.753s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag_active.svg
+[6.790s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_connected.svg
+[6.820s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_disconnected.svg
+[6.855s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_reconnect.svg
+[6.885s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/satelite.svg
+[6.918s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/scan.svg
+[6.939s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/settings.svg
+[6.973s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.png
+[7.005s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.svg
+[7.039s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_cold.svg
+[7.074s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_hot.svg
+[7.108s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_unknown.svg
+[7.137s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_warm.svg
+[7.171s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/tf.svg
+[7.206s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_error.png
+[7.238s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_loading.png
+[7.272s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/assets/waypoints.svg
+[7.303s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/css/style.css
+[7.337s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/head.html
+[7.368s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/iconbar.html
+[7.403s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/index.html
+[7.433s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.js
+[7.467s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.min.js
+[7.502s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs_LICENSE.txt
+[7.537s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternion.min.js
+[7.572s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternionjs_LICENSE.txt
+[7.603s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslib.min.js
+[7.637s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslibjs_LICENSE.txt
+[7.670s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/main.js
+[7.700s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/database.js
+[7.731s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/elements.js
+[7.763s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/joystick.js
+[7.798s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/navsat.js
+[7.835s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/persistent.js
+[7.867s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/rosbridge.js
+[7.914s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/status.js
+[7.949s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/tf.js
+[7.985s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/util.js
+[8.022s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/modules/view.js
+[8.043s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/js/setup.js
+[8.060s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_icon.html
+[8.077s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_modal.html
+[8.094s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_script.js
+[8.111s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_icon.html
+[8.129s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_modal.html
+[8.161s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_script.js
+[8.196s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_view.html
+[8.231s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_icon.html
+[8.258s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_modal.html
+[8.276s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_script.js
+[8.292s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_view.html
+[8.309s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_icon.html
+[8.328s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_modal.html
+[8.351s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_script.js
+[8.368s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_icon.html
+[8.386s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_modal.html
+[8.403s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_script.js
+[8.421s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_icon.html
+[8.440s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_modal.html
+[8.484s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_script.js
+[8.500s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_view.html
+[8.520s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_icon.html
+[8.537s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_modal.html
+[8.557s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_script.js
+[8.576s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_icon.html
+[8.594s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_modal.html
+[8.611s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_script.js
+[8.630s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_view.html
+[8.652s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_icon.html
+[8.671s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_modal.html
+[8.688s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_script.js
+[8.706s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_view.html
+[8.724s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_icon.html
+[8.743s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_modal.html
+[8.768s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_script.js
+[8.797s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_view.html
+[8.816s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_icon.html
+[8.837s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_modal.html
+[8.856s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_script.js
+[8.874s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_view.html
+[8.891s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_worker.js
+[8.914s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_icon.html
+[8.929s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_modal.html
+[8.947s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_script.js
+[8.965s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_view.html
+[8.984s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_icon.html
+[9.002s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_modal.html
+[9.021s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_script.js
+[9.040s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_icon.html
+[9.059s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_modal.html
+[9.077s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_script.js
+[9.098s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_view.html
+[9.114s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_icon.html
+[9.135s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_modal.html
+[9.154s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_script.js
+[9.172s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_view.html
+[9.192s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_icon.html
+[9.211s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_modal.html
+[9.230s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_script.js
+[9.249s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_view.html
+[9.269s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_icon.html
+[9.286s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_modal.html
+[9.309s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_script.js
+[9.323s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_view.html
+[9.370s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_icon.html
+[9.402s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_modal.html
+[9.417s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_script.js
+[9.444s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_view.html
+[9.471s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_icon.html
+[9.490s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_modal.html
+[9.512s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_script.js
+[9.527s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_icon.html
+[9.545s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_modal.html
+[9.565s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_script.js
+[9.584s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_view.html
+[9.601s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_icon.html
+[9.621s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_modal.html
+[9.639s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_script.js
+[9.659s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_icon.html
+[9.676s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_modal.html
+[9.696s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_script.js
+[9.717s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_icon.html
+[9.737s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_modal.html
+[9.756s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_script.js
+[9.777s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_view.html
+[9.796s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_icon.html
+[9.820s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_modal.html
+[9.836s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_script.js
+[9.854s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_view.html
+[9.872s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_icon.html
+[9.888s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_modal.html
+[9.906s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_script.js
+[9.926s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_icon.html
+[9.944s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_modal.html
+[9.963s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_script.js
+[9.982s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_view.html
+[9.999s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_icon.html
+[10.017s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_modal.html
+[10.037s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_script.js
+[10.053s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_view.html
+[10.072s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_icon.html
+[10.091s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_modal.html
+[10.108s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_script.js
+[10.124s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_icon.html
+[10.143s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_modal.html
+[10.159s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_script.js
+[10.177s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_view.html
+[10.195s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_icon.html
+[10.212s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_modal.html
+[10.231s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_script.js
+[10.250s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_view.html
+[10.270s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/lib/vizanti_server/server.py
+[10.288s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/lib/vizanti_server/service_handler.py
+[10.308s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/lib/vizanti_server/rosapi_launch.py
+[10.326s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/ament_index/resource_index/package_run_dependencies/vizanti_server
+[10.345s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/ament_index/resource_index/parent_prefix_path/vizanti_server
+[10.365s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.sh
+[10.382s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.dsv
+[10.400s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/environment/path.sh
+[10.419s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/environment/path.dsv
+[10.436s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/local_setup.bash
+[10.456s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/local_setup.sh
+[10.476s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/local_setup.zsh
+[10.492s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/local_setup.dsv
+[10.510s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/package.dsv
+[10.529s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/ament_index/resource_index/packages/vizanti_server
+[10.565s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig.cmake
+[10.603s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig-version.cmake
+[10.636s] -- Symlinking: /home/chotaehyun/waver_ws/install/vizanti_server/share/vizanti_server/package.xml
+[10.689s] Invoked command in '/home/chotaehyun/waver_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/vizanti_server

@@ -1,0 +1,32 @@
+[0.087s] Invoking command in '/home/chotaehyun/waver_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/ldlidar -- -j16 -l16
+[1.286s] [100%] Built target ldlidar_node
+[1.299s] Invoked command in '/home/chotaehyun/waver_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/ldlidar -- -j16 -l16
+[1.302s] Invoking command in '/home/chotaehyun/waver_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/ldlidar
+[1.367s] -- Install configuration: ""
+[1.368s] -- Execute custom install script
+[1.368s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/lib/ldlidar/ldlidar_node
+[1.368s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[1.368s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[1.368s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/ldlidar.launch.py
+[1.369s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[1.369s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[1.369s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[1.369s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_ldlidar.launch.py
+[1.369s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[1.371s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar//rviz/view.rviz
+[1.372s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[1.373s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/path.sh
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/environment/path.dsv
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.bash
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.sh
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.zsh
+[1.374s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/local_setup.dsv
+[1.375s] -- Symlinking: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/package.dsv
+[1.375s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[1.375s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[1.375s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[1.375s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/ldlidar/share/ldlidar/package.xml
+[1.474s] Invoked command in '/home/chotaehyun/waver_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/ldlidar

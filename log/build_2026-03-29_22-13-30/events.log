@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.000295] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000309] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000322] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.000334] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000347] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000360] (-) JobUnselected: {'identifier': 'emcl2'}
+[0.000372] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000384] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.000396] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.000423] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000438] (-) JobUnselected: {'identifier': 'robot_pose_publisher'}
+[0.000452] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.000466] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.000480] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.000493] (-) JobUnselected: {'identifier': 'ugv_base_node'}
+[0.000507] (-) JobUnselected: {'identifier': 'ugv_bringup'}
+[0.000520] (-) JobUnselected: {'identifier': 'ugv_chat_ai'}
+[0.000533] (-) JobUnselected: {'identifier': 'ugv_description'}
+[0.000547] (-) JobUnselected: {'identifier': 'ugv_gazebo'}
+[0.000560] (-) JobUnselected: {'identifier': 'ugv_interface'}
+[0.000574] (-) JobUnselected: {'identifier': 'ugv_nav'}
+[0.000588] (-) JobUnselected: {'identifier': 'ugv_slam'}
+[0.000601] (-) JobUnselected: {'identifier': 'ugv_tools'}
+[0.000615] (-) JobUnselected: {'identifier': 'ugv_vision'}
+[0.000628] (-) JobUnselected: {'identifier': 'ugv_web_app'}
+[0.000643] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.000658] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.000671] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.000685] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.000698] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.000715] (-) JobUnselected: {'identifier': 'waver_description'}
+[0.000735] (my_waver_app) JobQueued: {'identifier': 'my_waver_app', 'dependencies': OrderedDict()}
+[0.001435] (my_waver_app) JobStarted: {'identifier': 'my_waver_app'}
+[0.099585] (-) TimerEvent: {}
+[0.200342] (-) TimerEvent: {}
+[0.300819] (-) TimerEvent: {}
+[0.401241] (-) TimerEvent: {}
+[0.501663] (-) TimerEvent: {}
+[0.602170] (-) TimerEvent: {}
+[0.702598] (-) TimerEvent: {}
+[0.803028] (-) TimerEvent: {}
+[0.903685] (-) TimerEvent: {}
+[1.004197] (-) TimerEvent: {}
+[1.104763] (-) TimerEvent: {}
+[1.121548] (my_waver_app) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/chotaehyun/waver_ws/build/my_waver_app/build', '--no-deps', 'symlink_data'], 'cwd': '/home/chotaehyun/waver_ws/build/my_waver_app', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'chotaehyun', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chotaehyun/waver_ws/install/vizanti_msgs/lib:/home/chotaehyun/waver_ws/install/ugv_interface/lib:/home/chotaehyun/waver_ws/install/teb_local_planner/lib:/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/openslam_gmapping/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag_ros/lib:/home/chotaehyun/waver_ws/install/apriltag_msgs/lib:/home/chotaehyun/waver_ws/install/apriltag/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chotaehyun', 'OLDPWD': '/home/chotaehyun/waver_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1603', 'SYSTEMD_EXEC_PID': '1781', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '113626', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chotaehyun/waver_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chotaehyun', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'JOURNAL_STREAM': '8:11877', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/chotaehyun/waver_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/chotaehyun/waver_ws/install/apriltag/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chotaehyun', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/chotaehyun/waver_ws/install/costmap_converter/bin:/home/chotaehyun/waver_ws/install/apriltag_ros/bin:/home/chotaehyun/waver_ws/install/apriltag/bin:/opt/ros/humble/bin:/home/chotaehyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/G14:@/tmp/.ICE-unix/1751,unix/G14:/tmp/.ICE-unix/1751', 'INVOCATION_ID': 'bef97b0778ae4dd8b750d50bce4aba5d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TQQTM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chotaehyun/waver_ws/install/waver_description:/home/chotaehyun/waver_ws/install/vizanti:/home/chotaehyun/waver_ws/install/vizanti_server:/home/chotaehyun/waver_ws/install/vizanti_demos:/home/chotaehyun/waver_ws/install/vizanti_msgs:/home/chotaehyun/waver_ws/install/vizanti_cpp:/home/chotaehyun/waver_ws/install/ugv_web_app:/home/chotaehyun/waver_ws/install/ugv_vision:/home/chotaehyun/waver_ws/install/ugv_tools:/home/chotaehyun/waver_ws/install/ugv_slam:/home/chotaehyun/waver_ws/install/ugv_nav:/home/chotaehyun/waver_ws/install/ugv_interface:/home/chotaehyun/waver_ws/install/ugv_gazebo:/home/chotaehyun/waver_ws/install/ugv_description:/home/chotaehyun/waver_ws/install/ugv_chat_ai:/home/chotaehyun/waver_ws/install/ugv_bringup:/home/chotaehyun/waver_ws/install/ugv_base_node:/home/chotaehyun/waver_ws/install/teb_local_planner:/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/slam_gmapping:/home/chotaehyun/waver_ws/install/robot_pose_publisher:/home/chotaehyun/waver_ws/install/rf2o_laser_odometry:/home/chotaehyun/waver_ws/install/openslam_gmapping:/home/chotaehyun/waver_ws/install/my_waver_app:/home/chotaehyun/waver_ws/install/ldlidar:/home/chotaehyun/waver_ws/install/explore_lite:/home/chotaehyun/waver_ws/install/emcl2:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/home/chotaehyun/waver_ws/install/cartographer:/home/chotaehyun/waver_ws/install/apriltag_ros:/home/chotaehyun/waver_ws/install/apriltag_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8822462e-98c6-42a6-9254-b8176b9daf84', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chotaehyun/waver_ws/build/my_waver_app', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chotaehyun/waver_ws/build/my_waver_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/my_waver_app/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/build/ugv_web_app:/home/chotaehyun/waver_ws/install/ugv_web_app/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/build/ugv_vision:/home/chotaehyun/waver_ws/install/ugv_vision/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/build/ugv_tools:/home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/install/ugv_interface/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/build/ugv_chat_ai:/home/chotaehyun/waver_ws/install/ugv_chat_ai/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/build/ugv_bringup:/home/chotaehyun/waver_ws/install/ugv_bringup/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/build/my_waver_app:/home/chotaehyun/waver_ws/install/my_waver_app/lib/python3.10/site-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chotaehyun/waver_ws/install/waver_description:/home/chotaehyun/waver_ws/install/vizanti:/home/chotaehyun/waver_ws/install/vizanti_server:/home/chotaehyun/waver_ws/install/vizanti_demos:/home/chotaehyun/waver_ws/install/vizanti_msgs:/home/chotaehyun/waver_ws/install/vizanti_cpp:/home/chotaehyun/waver_ws/install/ugv_slam:/home/chotaehyun/waver_ws/install/ugv_nav:/home/chotaehyun/waver_ws/install/ugv_interface:/home/chotaehyun/waver_ws/install/ugv_gazebo:/home/chotaehyun/waver_ws/install/ugv_description:/home/chotaehyun/waver_ws/install/ugv_base_node:/home/chotaehyun/waver_ws/install/teb_local_planner:/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/slam_gmapping:/home/chotaehyun/waver_ws/install/robot_pose_publisher:/home/chotaehyun/waver_ws/install/rf2o_laser_odometry:/home/chotaehyun/waver_ws/install/openslam_gmapping:/home/chotaehyun/waver_ws/install/ldlidar:/home/chotaehyun/waver_ws/install/explore_lite:/home/chotaehyun/waver_ws/install/emcl2:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/home/chotaehyun/waver_ws/install/cartographer:/home/chotaehyun/waver_ws/install/apriltag_ros:/home/chotaehyun/waver_ws/install/apriltag_msgs:/home/chotaehyun/waver_ws/install/apriltag'}, 'shell': False}
+[1.204886] (-) TimerEvent: {}
+[1.305394] (-) TimerEvent: {}
+[1.405925] (-) TimerEvent: {}
+[1.506330] (-) TimerEvent: {}
+[1.586266] (my_waver_app) StdoutLine: {'line': b'running develop\n'}
+[1.606465] (-) TimerEvent: {}
+[1.706871] (-) TimerEvent: {}
+[1.807348] (-) TimerEvent: {}
+[1.887344] (my_waver_app) StdoutLine: {'line': b'running egg_info\n'}
+[1.887722] (my_waver_app) StdoutLine: {'line': b'writing my_waver_app.egg-info/PKG-INFO\n'}
+[1.888328] (my_waver_app) StdoutLine: {'line': b'writing dependency_links to my_waver_app.egg-info/dependency_links.txt\n'}
+[1.888593] (my_waver_app) StdoutLine: {'line': b'writing entry points to my_waver_app.egg-info/entry_points.txt\n'}
+[1.888733] (my_waver_app) StdoutLine: {'line': b'writing requirements to my_waver_app.egg-info/requires.txt\n'}
+[1.888821] (my_waver_app) StdoutLine: {'line': b'writing top-level names to my_waver_app.egg-info/top_level.txt\n'}
+[1.892389] (my_waver_app) StdoutLine: {'line': b"reading manifest file 'my_waver_app.egg-info/SOURCES.txt'\n"}
+[1.893425] (my_waver_app) StdoutLine: {'line': b"writing manifest file 'my_waver_app.egg-info/SOURCES.txt'\n"}
+[1.896705] (my_waver_app) StdoutLine: {'line': b'running build_ext\n'}
+[1.896903] (my_waver_app) StdoutLine: {'line': b'Creating /home/chotaehyun/waver_ws/install/my_waver_app/lib/python3.10/site-packages/my-waver-app.egg-link (link to .)\n'}
+[1.897937] (my_waver_app) StdoutLine: {'line': b'Installing patrol_waypoint_node script to /home/chotaehyun/waver_ws/install/my_waver_app/lib/my_waver_app\n'}
+[1.898292] (my_waver_app) StdoutLine: {'line': b'\n'}
+[1.898474] (my_waver_app) StdoutLine: {'line': b'Installed /home/chotaehyun/waver_ws/build/my_waver_app\n'}
+[1.898528] (my_waver_app) StdoutLine: {'line': b'running symlink_data\n'}
+[1.907562] (-) TimerEvent: {}
+[2.008179] (-) TimerEvent: {}
+[2.018536] (my_waver_app) CommandEnded: {'returncode': 0}
+[2.049121] (my_waver_app) JobEnded: {'identifier': 'my_waver_app', 'rc': 0}
+[2.050274] (-) EventReactorShutdown: {}

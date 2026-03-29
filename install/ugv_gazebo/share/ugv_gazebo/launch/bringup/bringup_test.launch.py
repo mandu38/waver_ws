@@ -1,0 +1,1 @@
+/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_main/ugv_gazebo/launch/bringup/bringup_test.launch.py

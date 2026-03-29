@@ -1,0 +1,24 @@
+[0.393s] Invoking command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/robot_pose_publisher -- -j16 -l16
+[0.917s] [100%] Built target robot_pose_publisher
+[0.940s] Invoked command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/robot_pose_publisher -- -j16 -l16
+[0.942s] Invoking command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/robot_pose_publisher
+[0.989s] -- Install configuration: ""
+[0.989s] -- Execute custom install script
+[0.989s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/lib/robot_pose_publisher/robot_pose_publisher
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/launch/robot_pose_publisher_launch.py
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.sh
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.dsv
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.sh
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.dsv
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.bash
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.sh
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.zsh
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.dsv
+[0.990s] -- Symlinking: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/package.dsv
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/ament_index/resource_index/packages/robot_pose_publisher
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig.cmake
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig-version.cmake
+[0.990s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/robot_pose_publisher/share/robot_pose_publisher/package.xml
+[1.130s] Invoked command in '/home/chotaehyun/waver_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/robot_pose_publisher

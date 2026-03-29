@@ -1,0 +1,26 @@
+[0.129s] Invoking command in '/home/chotaehyun/waver_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/cartographer -- -j16 -l16
+[1.605s] Invoked command in '/home/chotaehyun/waver_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/cartographer -- -j16 -l16
+[1.619s] Invoking command in '/home/chotaehyun/waver_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/cartographer
+[1.675s] -- Install configuration: ""
+[1.676s] -- Execute custom install script
+[1.676s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/config/localization_2d.lua
+[1.676s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/config/mapping_2d.lua
+[1.676s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/launch/localization.launch.py
+[1.677s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/launch/mapping.launch.py
+[1.679s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/launch/occupancy_grid.launch.py
+[1.680s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/ament_index/resource_index/package_run_dependencies/cartographer
+[1.683s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/ament_index/resource_index/parent_prefix_path/cartographer
+[1.687s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.sh
+[1.688s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.dsv
+[1.688s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/environment/path.sh
+[1.688s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/environment/path.dsv
+[1.689s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/local_setup.bash
+[1.689s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/local_setup.sh
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/local_setup.zsh
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/local_setup.dsv
+[1.690s] -- Symlinking: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/package.dsv
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/ament_index/resource_index/packages/cartographer
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/cmake/cartographerConfig.cmake
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/cmake/cartographerConfig-version.cmake
+[1.690s] -- Up-to-date symlink: /home/chotaehyun/waver_ws/install/cartographer/share/cartographer/package.xml
+[1.812s] Invoked command in '/home/chotaehyun/waver_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/cartographer

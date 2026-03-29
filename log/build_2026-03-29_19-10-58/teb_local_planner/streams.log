@@ -1,0 +1,144 @@
+[0.021s] Invoking command in '/home/chotaehyun/waver_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/teb_local_planner
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.378s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.715s] -- Found costmap_converter: 0.1.2 (/home/chotaehyun/waver_ws/install/costmap_converter/share/costmap_converter/cmake)
+[0.775s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.782s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.792s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.986s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.989s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.128s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.159s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.223s] -- Looking for pthread.h
+[1.312s] -- Looking for pthread.h - found
+[1.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.390s] -- Found Threads: TRUE  
+[1.632s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.632s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.785s] -- Found dwb_critics: 1.1.20 (/opt/ros/humble/share/dwb_critics/cmake)
+[1.918s] -- Found teb_msgs: 0.0.1 (/home/chotaehyun/waver_ws/install/teb_msgs/share/teb_msgs/cmake)
+[1.937s] -- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.940s] -- System: Linux-6.8.0-106-generic
+[1.940s] -- /opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/cmake_modules
+[1.945s] -- Found SuiteSparse
+[1.945s] -- Searching for g2o ...
+[1.945s] -- Found g2o headers in: /opt/ros/humble/include/g2o
+[1.947s] -- Found libg2o: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_csparse_extension.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_core.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_stuff.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam2d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam3d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_cholmod.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_pcg.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_csparse.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_incremental.so
+[1.958s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[3.746s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.817s] -- Configuring done
+[3.902s] -- Generating done
+[3.909s] -- Build files have been written to: /home/chotaehyun/waver_ws/build/teb_local_planner
+[3.923s] Invoked command in '/home/chotaehyun/waver_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chotaehyun/waver_ws/install/teb_local_planner
+[3.925s] Invoking command in '/home/chotaehyun/waver_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/teb_local_planner -- -j16 -l16
+[3.998s] [ 20%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o[0m
+[3.998s] [ 20%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o[0m
+[3.998s] [ 30%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o[0m
+[3.998s] [ 50%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o[0m
+[3.998s] [ 50%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o[0m
+[3.998s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o[0m
+[3.999s] [ 70%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o[0m
+[4.003s] [ 80%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o[0m
+[4.005s] [ 90%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o[0m
+[14.142s] In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+[14.142s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+[14.142s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:42[m[K,
+[14.143s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[14.143s] [01m[K/home/chotaehyun/waver_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[14.143s] [01m[K/home/chotaehyun/waver_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[14.143s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[14.143s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.164s] [01m[K/home/chotaehyun/waver_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[14.164s] [01m[K/home/chotaehyun/waver_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[14.164s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[14.164s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.164s] In file included from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:68[m[K,
+[14.164s]                  from [01m[K/home/chotaehyun/waver_ws/src/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[14.164s] [01m[K/home/chotaehyun/waver_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[14.164s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[14.164s]       |                                                                                                                      [01;36m[K~^[m[K
+[14.164s]       |                                                                                                                       [01;36m[K|[m[K
+[14.165s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[37.929s] [100%] [32m[1mLinking CXX shared library libteb_local_planner.so[0m
+[38.517s] [100%] Built target teb_local_planner
+[38.533s] Invoked command in '/home/chotaehyun/waver_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chotaehyun/waver_ws/build/teb_local_planner -- -j16 -l16
+[38.536s] Invoking command in '/home/chotaehyun/waver_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/teb_local_planner
+[38.551s] -- Install configuration: "Release"
+[38.551s] -- Execute custom install script
+[38.552s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/lib/libteb_local_planner.so
+[38.565s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/distance_calculations.h
+[38.575s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/equivalence_relations.h
+[38.585s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/base_teb_edges.h
+[38.596s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_acceleration.h
+[38.605s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+[38.616s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_kinematics.h
+[38.625s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_obstacle.h
+[38.635s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_prefer_rotdir.h
+[38.644s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_shortest_path.h
+[38.654s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_time_optimal.h
+[38.664s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity.h
+[38.673s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity_obstacle_ratio.h
+[38.683s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_via_point.h
+[38.692s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/penalties.h
+[38.702s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_pose.h
+[38.711s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_timediff.h
+[38.720s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/graph_search.h
+[38.729s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/h_signature.h
+[38.739s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.h
+[38.749s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.hpp
+[38.759s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/misc.h
+[38.769s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/obstacles.h
+[38.778s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/optimal_planner.h
+[38.799s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/planner_interface.h
+[38.820s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/pose_se2.h
+[38.829s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/recovery_behaviors.h
+[38.839s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/robot_footprint_model.h
+[38.850s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/teb_config.h
+[38.859s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/teb_local_planner_ros.h
+[38.869s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.h
+[38.879s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.hpp
+[38.898s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/visualization.h
+[38.916s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/include//teb_local_planner/visualization.hpp
+[38.925s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner_plugin.xml
+[38.936s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/lib/teb_local_planner/cmd_vel_to_ackermann_drive.py
+[38.945s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/params/teb_params.yaml
+[38.954s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.sh
+[38.963s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.dsv
+[38.972s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner//teb_local_planner_plugin.xml
+[38.980s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/ament_index/resource_index/package_run_dependencies/teb_local_planner
+[38.990s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/ament_index/resource_index/parent_prefix_path/teb_local_planner
+[38.999s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.sh
+[39.010s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.dsv
+[39.021s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/path.sh
+[39.030s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/environment/path.dsv
+[39.040s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/local_setup.bash
+[39.050s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/local_setup.sh
+[39.060s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/local_setup.zsh
+[39.070s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/local_setup.dsv
+[39.080s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/package.dsv
+[39.090s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/ament_index/resource_index/packages/teb_local_planner
+[39.100s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/teb_local_planner
+[39.109s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.120s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[39.130s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.140s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig.cmake
+[39.150s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig-version.cmake
+[39.160s] -- Symlinking: /home/chotaehyun/waver_ws/install/teb_local_planner/share/teb_local_planner/package.xml
+[39.173s] Invoked command in '/home/chotaehyun/waver_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chotaehyun/waver_ws/install/teb_msgs:/home/chotaehyun/waver_ws/install/costmap_converter:/home/chotaehyun/waver_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chotaehyun/waver_ws/install/teb_msgs/lib:/home/chotaehyun/waver_ws/install/costmap_converter/lib:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/chotaehyun/waver_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/chotaehyun/waver_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/chotaehyun/waver_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chotaehyun/waver_ws/build/teb_local_planner

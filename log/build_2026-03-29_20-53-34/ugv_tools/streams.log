@@ -1,0 +1,19 @@
+[1.518s] Invoking command in '/home/chotaehyun/waver_ws/build/ugv_tools': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_tools/build --no-deps symlink_data
+[1.799s] running develop
+[1.973s] running egg_info
+[1.979s] writing ugv_tools.egg-info/PKG-INFO
+[1.981s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[1.981s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[1.981s] writing requirements to ugv_tools.egg-info/requires.txt
+[1.981s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[1.983s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[1.984s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[1.985s] running build_ext
+[1.985s] Creating /home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[1.986s] Installing behavior_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[1.986s] Installing joy_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[1.986s] Installing keyboard_ctrl script to /home/chotaehyun/waver_ws/install/ugv_tools/lib/ugv_tools
+[1.986s] 
+[1.986s] Installed /home/chotaehyun/waver_ws/build/ugv_tools
+[1.987s] running symlink_data
+[2.025s] Invoked command in '/home/chotaehyun/waver_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/chotaehyun/waver_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chotaehyun/waver_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chotaehyun/waver_ws/build/ugv_tools/build --no-deps symlink_data
